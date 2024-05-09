@@ -174,11 +174,6 @@ export default function Index() {
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
           <div className="w-full text-center lg:w-8/12">
-            <p className="text-4xl text-center">
-              <span role="img" aria-label="love">
-                😍
-              </span>
-            </p>
             <h3 className="font-semibold text-3xl">
               Schedule a Free Consultation
             </h3>
@@ -191,10 +186,12 @@ export default function Index() {
                 target="_blank"
                 className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
               >
-                <span>Schedule Now</span>
+                <i className="fas fa-calendar w-64"></i> &nbsp;
+                <span>
+                  Schedule Now
+                </span>
               </a>
             </div>
-            <div className="text-center mt-16"></div>
           </div>
         </div>
       </div>
