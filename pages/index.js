@@ -36,8 +36,8 @@ export default function Index() {
         alt="..."
       />
     </section>
-
-    <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100" id="about">
+    <div className="mt-1" id="about"></div>
+    <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
       <div
         className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
         style={{ transform: "translateZ(0)" }}
